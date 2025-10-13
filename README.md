@@ -9,3 +9,13 @@ For this project, I primarily worked on the enemies, player movement, room camer
 I also briefly experimented with tile-placements tools and some of the audio features in the game.
 
 Play my **[Metroid NES Remake](https://sirchuckofthechuckles.itch.io/metroid-nes-remake)**!
+
+
+I also worked on a small 2D game called Lamplighter!
+
+This game was made using Unity and C#. The player goes around various levels needing to manage their light in order to defeat enemies.
+If the player runs out of light.... they need to find a campfire OR make a mad dash towards the end of the level.
+
+The link is down below, I hope you enjoy playing it!
+Play **[Lamplighter](https://sirchuckofthechuckles.itch.io/lamplighter)**!
+

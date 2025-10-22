@@ -1,7 +1,7 @@
 # cfnesi.github.io
 
 Hey, my name is Charles Nesi! 
-I'm a 494 student who worked with Max Scheske on this Metroid NES remake.
+I'm an EECS 494 student who worked with Max Scheske on this Metroid NES remake.
 
 This remake was created using Unity, C#, and code generated from ChatGPT.
 
@@ -18,6 +18,8 @@ If the player runs out of light.... they need to find a campfire OR make a mad d
 
 The link is down below, I hope you enjoy playing it!
 
-
 Play **[Lamplighter](https://sirchuckofthechuckles.itch.io/lamplighter)**!
 
+
+I am also on the dev team for the Starcraft II Archipelago mod, part of a randomizer that works across multiple games and can be heavily customizable!
+You can find more information here: **[Archipelago Website](https://archipelago.gg/)**

@@ -28,6 +28,15 @@ Play **[Lamplighter](https://sirchuckofthechuckles.itch.io/lamplighter)**!
 
 .
 
+I am apart of the Devolper Team for SlamJam!
+
+You can find the game here on itch.io:
+**[SlamJam!](https://jvijan.itch.io/slam-jam)**!
+
+
+.
+
+.
 
 I am also on the dev team for the Starcraft II Archipelago mod, part of a randomizer that works across multiple games and can be heavily customizable!
 You can find more information here: **[Archipelago Website](https://archipelago.gg/)**

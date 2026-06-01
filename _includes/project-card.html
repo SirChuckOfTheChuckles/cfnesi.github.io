@@ -1,0 +1,20 @@
+<article class="project-card">
+  {% if include.project.image %}
+    <img src="{{ include.project.image | relative_url }}" alt="{{ include.project.title }} preview">
+  {% endif %}
+  <div class="project-card-body">
+    <p class="eyebrow">{{ include.project.role }}</p>
+    <h3><a href="{{ include.project.url | relative_url }}">{{ include.project.title }}</a></h3>
+    <p>{{ include.project.summary }}</p>
+    <div class="pill-row">
+      {% for item in include.project.tech %}
+        <span class="pill">{{ item }}</span>
+      {% endfor %}
+    </div>
+    <div class="text-links">
+      <a href="{{ include.project.url | relative_url }}">Read more</a>
+      {% if include.project.demo_url %}<a href="{{ include.project.demo_url }}" target="_blank" rel="noopener">Live page</a>{% endif %}
+      {% if include.project.repo_url %}<a href="{{ include.project.repo_url }}" target="_blank" rel="noopener">Code</a>{% endif %}
+    </div>
+  </div>
+</article>

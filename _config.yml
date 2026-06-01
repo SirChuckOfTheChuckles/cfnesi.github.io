@@ -1,0 +1,25 @@
+title: Charles Nesi
+description: Computer Science student at the University of Michigan building software, games, tools, and open-source systems.
+url: "https://cfnesi1023.github.io"
+baseurl: ""
+
+name: Charles Nesi
+email: cfnesi1023@gmail.com
+github_username: cfnesi1023
+linkedin_url: "https://www.linkedin.com/in/YOUR-LINKEDIN-SLUG/"
+resume_url: "/assets/Charles_Nesi_Resume.pdf"
+location: Northville, MI
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+markdown: kramdown
+plugins: []
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - .gitignore

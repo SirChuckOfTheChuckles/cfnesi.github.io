@@ -1,0 +1,12 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="720" rx="42" fill="#111827"/>
+  <circle cx="1010" cy="150" r="110" fill="#f59e0b" opacity="0.18"/>
+  <circle cx="170" cy="590" r="150" fill="#38bdf8" opacity="0.16"/>
+  <path d="M190 560H1010" stroke="#f9fafb" stroke-width="14" stroke-linecap="round" opacity="0.18"/>
+  <path d="M290 520C360 430 440 430 510 520C580 610 660 610 730 520C800 430 880 430 950 520" stroke="#f59e0b" stroke-width="20" stroke-linecap="round"/>
+  <rect x="418" y="222" width="365" height="140" rx="28" fill="#f9fafb"/>
+  <text x="600" y="282" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="52" font-weight="800" fill="#111827">Slam Jam!</text>
+  <text x="600" y="332" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="600" fill="#374151">2D Puzzle-Platformer</text>
+  <path d="M575 420L625 420L625 492L675 492L600 586L525 492L575 492V420Z" fill="#38bdf8"/>
+  <text x="600" y="656" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="600" fill="#f9fafb" opacity="0.72">Replace this SVG with a screenshot or GIF when ready</text>
+</svg>

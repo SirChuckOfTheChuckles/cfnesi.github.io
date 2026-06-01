@@ -5,25 +5,67 @@ title: Home
 
 <section class="hero">
   <div class="container hero-grid">
-    <div>
-      <p class="eyebrow">Software Developer • Computer Science Student</p>
+    <div class="hero-copy">
+      <p class="eyebrow">Software Developer / Computer Science Student</p>
       <h1>Hi, I'm Charles Nesi.</h1>
       <p class="lead">
-        I’m a Computer Science student at the University of Michigan focused on software development, debugging, game systems, and open-source collaboration.
+        I build reliable software, game systems, and open-source tools with a bias toward clear debugging, readable code, and finished work.
       </p>
       <div class="button-row">
         <a class="button primary" href="mailto:{{ site.email }}">Contact Me</a>
         <a class="button" href="{{ site.resume_url | relative_url }}" target="_blank" rel="noopener">View Resume</a>
         <a class="button" href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener">GitHub</a>
       </div>
+      <div class="hero-proof">
+        <div>
+          <strong>80+</strong>
+          <span>open-source PRs and reviews</span>
+        </div>
+        <div>
+          <strong>1</strong>
+          <span>released game project</span>
+        </div>
+        <div>
+          <strong>UMich</strong>
+          <span>Computer Science</span>
+        </div>
+      </div>
     </div>
-    <div class="hero-card">
-      <p class="hero-card-label">Currently</p>
-      <h2>Seeking full-time software developer roles</h2>
-      <p>
-        I’m especially interested in roles where I can work on reliable software, developer tools, gameplay systems, debugging-heavy features, and collaborative engineering teams.
-      </p>
+
+    <div class="hero-visual" aria-label="Snapshot of Charles Nesi's software work">
+      <div class="code-window">
+        <div class="window-bar">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <pre><code>class Developer:
+    focus = [
+        "debugging",
+        "game systems",
+        "open source",
+        "tools"
+    ]
+
+    def ship(self, project):
+        test(project)
+        document(project)
+        return "ready"</code></pre>
+      </div>
+      <div class="status-strip">
+        <span>Currently seeking full-time software roles</span>
+        <span>Northville, MI</span>
+      </div>
     </div>
+  </div>
+</section>
+
+<section class="intro-band">
+  <div class="container intro-grid">
+    <p>
+      I am a Computer Science student at the University of Michigan who likes projects where the hard part is understanding the system: tracing behavior, fixing edge cases, and making the result easier for the next person to work with.
+    </p>
+    <a href="#projects">Explore featured work</a>
   </div>
 </section>
 
@@ -32,7 +74,7 @@ title: Home
     <div class="section-heading">
       <p class="eyebrow">Featured Work</p>
       <h2>Projects</h2>
-      <p>One highlighted project to start. Add more files inside <code>_projects/</code> as the portfolio grows.</p>
+      <p>Selected work that shows shipped projects, collaboration, and practical engineering judgment.</p>
     </div>
 
     <div class="project-grid">
@@ -48,19 +90,19 @@ title: Home
   <div class="container two-column">
     <div>
       <p class="eyebrow">Experience</p>
-      <h2>Open-source and professional work</h2>
+      <h2>Open-source and professional work.</h2>
     </div>
     <div class="timeline">
       <article>
-        <h3>Archipelago Project — Maintainer / Developer</h3>
-        <p class="muted">Jul 2024 – Present</p>
+        <h3>Archipelago Project - Maintainer / Developer</h3>
+        <p class="muted">Jul 2024 - Present</p>
         <p>
           Contributed Python and XML changes to an open-source StarCraft II randomizer codebase, reviewed pull requests, resolved merge conflicts, and helped isolate complex option-driven bugs.
         </p>
       </article>
       <article>
-        <h3>Quantum Services Group — Help Desk Technician</h3>
-        <p class="muted">May 2025 – Aug 2025; Dec 2025</p>
+        <h3>Quantum Services Group - Help Desk Technician</h3>
+        <p class="muted">May 2025 - Aug 2025; Dec 2025</p>
         <p>
           Created and documented client support tickets, triaged hardware/software/connectivity issues, and coordinated troubleshooting with ISPs and third-party IT teams.
         </p>
@@ -73,7 +115,7 @@ title: Home
   <div class="container two-column">
     <div>
       <p class="eyebrow">Skills</p>
-      <h2>Technical toolkit</h2>
+      <h2>Technical toolkit.</h2>
     </div>
     <div class="skill-grid">
       <div>

@@ -19,15 +19,15 @@ title: Home
       <div class="hero-proof">
         <div>
           <strong>80+</strong>
-          <span>open-source PRs and reviews</span>
+          <span>open-source PRs authored</span>
+        </div>
+        <div>
+          <strong>75+</strong>
+          <span>pull requests reviewed</span>
         </div>
         <div>
           <strong>1</strong>
           <span>released game project</span>
-        </div>
-        <div>
-          <strong>UMich</strong>
-          <span>Computer Science</span>
         </div>
       </div>
     </div>
@@ -97,7 +97,7 @@ title: Home
         <h3>Archipelago Project - Maintainer / Developer</h3>
         <p class="muted">Jul 2024 - Present</p>
         <p>
-          Contributed Python and XML changes to an open-source StarCraft II randomizer codebase, reviewed pull requests, resolved merge conflicts, and helped isolate complex option-driven bugs.
+          Contributed 80+ pull requests and reviewed 75+ more for an open-source StarCraft II randomizer, working across Python, XML, Galaxy scripting, StarCraft II Editor data, and option-driven gameplay systems.
         </p>
       </article>
       <article>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Archipelago StarCraft II Randomizer project preview</title>
+  <desc id="desc">A stylized software and game-data system preview showing mission nodes, option toggles, and code panels.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#101214"/>
+      <stop offset="0.56" stop-color="#16312e"/>
+      <stop offset="1" stop-color="#332917"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" x2="1">
+      <stop offset="0" stop-color="#f7fbfa"/>
+      <stop offset="1" stop-color="#d9f5ef"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <path d="M0 616h1280v104H0z" fill="#0f766e" opacity=".32"/>
+  <path d="M118 120h516c34 0 62 28 62 62v356c0 34-28 62-62 62H118c-34 0-62-28-62-62V182c0-34 28-62 62-62z" fill="#0b0f10" opacity=".78" stroke="#ffffff" stroke-opacity=".16" stroke-width="3"/>
+  <path d="M754 120h348c68 0 122 55 122 122v236c0 68-55 122-122 122H754z" fill="#f6f8f7" opacity=".96"/>
+  <circle cx="154" cy="188" r="13" fill="#e85d75"/>
+  <circle cx="194" cy="188" r="13" fill="#f59e0b"/>
+  <circle cx="234" cy="188" r="13" fill="#34d399"/>
+  <text x="112" y="286" fill="#d7fff5" font-family="Consolas, monospace" font-size="34">options.validate(seed)</text>
+  <text x="112" y="350" fill="#8ee7d8" font-family="Consolas, monospace" font-size="34">mission.apply_logic()</text>
+  <text x="112" y="414" fill="#fff6df" font-family="Consolas, monospace" font-size="34">xml.patch_units()</text>
+  <text x="112" y="478" fill="#d7fff5" font-family="Consolas, monospace" font-size="34">review.merge_ready()</text>
+  <g fill="none" stroke="#0f766e" stroke-width="6" stroke-linecap="round">
+    <path d="M850 236l114 80 112-80"/>
+    <path d="M964 316v148"/>
+    <path d="M850 464l114-80 112 80"/>
+  </g>
+  <g>
+    <circle cx="850" cy="236" r="48" fill="#115e59"/>
+    <circle cx="1076" cy="236" r="48" fill="#f59e0b"/>
+    <circle cx="964" cy="316" r="54" fill="#0f766e"/>
+    <circle cx="850" cy="464" r="48" fill="#e85d75"/>
+    <circle cx="1076" cy="464" r="48" fill="#115e59"/>
+  </g>
+  <g fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700" text-anchor="middle">
+    <text x="850" y="245">PR</text>
+    <text x="1076" y="245">XML</text>
+    <text x="964" y="325">SC2</text>
+    <text x="850" y="473">BUG</text>
+    <text x="1076" y="473">PY</text>
+  </g>
+  <rect x="818" y="550" width="330" height="40" rx="8" fill="url(#panel)"/>
+  <text x="983" y="578" fill="#115e59" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800" text-anchor="middle">80+ PRs / 75+ reviews</text>
+</svg>

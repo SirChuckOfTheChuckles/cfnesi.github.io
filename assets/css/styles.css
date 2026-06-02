@@ -454,6 +454,49 @@ code {
   color: var(--muted);
 }
 
+.metric-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  margin: 28px 0 34px;
+}
+
+.metric-grid div,
+.contribution-list article {
+  padding: 20px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+
+.metric-grid strong {
+  display: block;
+  color: var(--accent-dark);
+  font-size: 1.35rem;
+  line-height: 1;
+}
+
+.metric-grid span {
+  display: block;
+  margin-top: 8px;
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.contribution-list {
+  display: grid;
+  gap: 16px;
+  margin-top: 18px;
+}
+
+.contribution-list h3 {
+  margin: 0 0 12px;
+}
+
+.contribution-list p {
+  margin: 8px 0 0;
+}
+
 .info-card {
   padding: 26px;
 }
@@ -515,7 +558,8 @@ code {
   }
 
   .hero-proof,
-  .status-strip {
+  .status-strip,
+  .metric-grid {
     grid-template-columns: 1fr;
   }
 

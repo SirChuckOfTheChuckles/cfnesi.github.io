@@ -10,7 +10,7 @@ tech:
   - Galaxy
   - GitHub
   - StarCraft II Editor
-image: /assets/images/archipelago-sc2-randomizer.svg
+image: /assets/images/archipelago-sc2-banner.png
 demo_url: https://archipelago.gg/
 repo_url: https://github.com/ArchipelagoMW/Archipelago
 order: 0

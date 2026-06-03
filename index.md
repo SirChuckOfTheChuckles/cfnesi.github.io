@@ -6,7 +6,7 @@ title: Home
 <section class="hero">
   <div class="container hero-grid">
     <div class="hero-copy">
-      <p class="eyebrow">Software Developer / Computer Science Student</p>
+      <p class="eyebrow">Software Developer / Computer Science Graduate</p>
       <h1>Hi, I'm Charles Nesi.</h1>
       <p class="lead">
         I build reliable software, game systems, and open-source tools with a bias toward clear debugging, readable code, and finished work.
@@ -18,16 +18,16 @@ title: Home
       </div>
       <div class="hero-proof">
         <div>
-          <strong>80+</strong>
-          <span>open-source PRs authored</span>
+          <strong>CS</strong>
+          <span>graduate with advanced technical projects</span>
         </div>
         <div>
-          <strong>75+</strong>
-          <span>pull requests reviewed</span>
+          <strong>Proficient</strong>
+          <span>in 6+ languages and data formats</span>
         </div>
         <div>
-          <strong>1</strong>
-          <span>released game project</span>
+          <strong>2</strong>
+          <span>featured shipped projects</span>
         </div>
       </div>
     </div>
@@ -54,7 +54,6 @@ title: Home
       </div>
       <div class="status-strip">
         <span>Currently seeking full-time software roles</span>
-        <span>Northville, MI</span>
       </div>
     </div>
   </div>
@@ -63,7 +62,8 @@ title: Home
 <section class="intro-band">
   <div class="container intro-grid">
     <p>
-      I am a Computer Science student at the University of Michigan who likes projects where the hard part is understanding the system: tracing behavior, fixing edge cases, and making the result easier for the next person to work with.
+      I am a Computer Science graduate who completed my CS coursework at the University of Michigan. I enjoy projects where the hard part is understanding the system: tracing behavior, fixing edge cases, and optimizing systems to allow even greater capabilities within
+      existing systems..
     </p>
     <a href="#projects">Explore featured work</a>
   </div>
@@ -74,7 +74,7 @@ title: Home
     <div class="section-heading">
       <p class="eyebrow">Featured Work</p>
       <h2>Projects</h2>
-      <p>Selected work that shows shipped projects, collaboration, and practical engineering judgment.</p>
+      <p>Some of my work that shows shipped projects, collaboration, and practical engineering judgment.</p>
     </div>
 
     <div class="project-grid">
@@ -90,7 +90,7 @@ title: Home
   <div class="container two-column">
     <div>
       <p class="eyebrow">Experience</p>
-      <h2>Open-source and professional work.</h2>
+      <h2>Open-Source and Professional Work</h2>
     </div>
     <div class="timeline">
       <article>
@@ -115,7 +115,7 @@ title: Home
   <div class="container two-column">
     <div>
       <p class="eyebrow">Skills</p>
-      <h2>Technical toolkit.</h2>
+      <h2>Technical Toolkit</h2>
     </div>
     <div class="skill-grid">
       <div>
@@ -124,11 +124,11 @@ title: Home
       </div>
       <div>
         <h3>Tools</h3>
-        <p>Git, GitHub, Jira, Linux, Ubuntu, WSL, Unity, StarCraft II Editor</p>
+        <p>Git, GitHub, Jira, Linux, Ubuntu, WSL, Unity, SC II Editor</p>
       </div>
       <div>
         <h3>Strengths</h3>
-        <p>Debugging, testing, documentation, troubleshooting, code organization</p>
+        <p>Debugging, optimization, documentation, simplifcation, code organization</p>
       </div>
       <div>
         <h3>Coursework</h3>
@@ -140,11 +140,12 @@ title: Home
 
 <section class="section cta">
   <div class="container cta-box">
-    <h2>Want to get in touch?</h2>
-    <p>Email is the best way to reach me for software developer opportunities.</p>
-    <div class="button-row center">
-      <a class="button primary" href="mailto:{{ site.email }}">{{ site.email }}</a>
-      <a class="button" href="{{ site.resume_url | relative_url }}" target="_blank" rel="noopener">Resume</a>
+    <h2>Contact</h2>
+    <div class="contact-list">
+      <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+      {% if site.phone != blank %}
+        <a href="tel:{{ site.phone | remove: ' ' | remove: '-' | remove: '(' | remove: ')' | remove: '.' }}">{{ site.phone }}</a>
+      {% endif %}
     </div>
   </div>
 </section>

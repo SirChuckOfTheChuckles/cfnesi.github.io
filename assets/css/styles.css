@@ -259,9 +259,7 @@ code {
 }
 
 .status-strip {
-  display: grid;
-  grid-template-columns: 1.2fr 0.8fr;
-  gap: 12px;
+  display: block;
 }
 
 .status-strip span {
@@ -282,10 +280,6 @@ code {
 }
 
 .intro-grid {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  gap: 28px;
-  align-items: center;
   padding: 30px 0;
 }
 
@@ -294,11 +288,6 @@ code {
   max-width: 820px;
   color: #4d4638;
   font-size: 1.05rem;
-}
-
-.intro-grid a {
-  color: var(--accent-dark);
-  font-weight: 800;
 }
 
 .section {
@@ -349,7 +338,8 @@ code {
 .project-card img {
   width: 100%;
   aspect-ratio: 16 / 9;
-  object-fit: cover;
+  object-fit: contain;
+  background: var(--bg);
 }
 
 .project-card-body {
@@ -430,6 +420,19 @@ code {
 .cta-box {
   text-align: center;
   padding: 44px 24px;
+}
+
+.contact-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px 28px;
+  margin-top: 18px;
+  font-weight: 800;
+}
+
+.contact-list a {
+  color: var(--accent-dark);
 }
 
 .page-hero {
@@ -552,13 +555,11 @@ code {
 
   .hero-grid,
   .two-column,
-  .project-detail,
-  .intro-grid {
+  .project-detail {
     grid-template-columns: 1fr;
   }
 
   .hero-proof,
-  .status-strip,
   .metric-grid {
     grid-template-columns: 1fr;
   }

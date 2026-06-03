@@ -9,7 +9,7 @@ tech:
   - C#
   - 2D Game Development
   - Puzzle Platformer
-image: /assets/images/slam-jam-placeholder.svg
+image: /assets/images/slam-jam-poster.png
 demo_url: https://jvijan.itch.io/slam-jam
 repo_url:
 order: 1

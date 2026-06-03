@@ -22,8 +22,8 @@ title: Home
           <span>graduate with advanced technical projects</span>
         </div>
         <div>
-          <strong>Proficient</strong>
-          <span>in 6+ languages and data formats</span>
+          <strong>Broad Toolkit</strong>
+          <span>Python, C++, C#, Java, SQL, XML, and Galaxy</span>
         </div>
         <div>
           <strong>2</strong>
@@ -52,8 +52,9 @@ title: Home
         document(project)
         return "ready"</code></pre>
       </div>
-      <div class="status-strip">
-        <span>Currently seeking full-time software roles</span>
+      <div class="status-card">
+        <strong>Seeking full-time software developer roles</strong>
+        <span>Specialized in reliable tools, gameplay systems, debugging, and maintainable engineering work.</span>
       </div>
     </div>
   </div>
@@ -62,10 +63,8 @@ title: Home
 <section class="intro-band">
   <div class="container intro-grid">
     <p>
-      I am a Computer Science graduate who completed my CS coursework at the University of Michigan. I enjoy projects where the hard part is understanding the system: tracing behavior, fixing edge cases, and optimizing systems to allow even greater capabilities within
-      existing systems..
+      I am a Computer Science graduate who completed my CS coursework at the University of Michigan. I enjoy projects where the hard part is understanding the system: tracing behavior, fixing edge cases, and optimizing existing systems so they can support greater capabilities.
     </p>
-    <a href="#projects">Explore featured work</a>
   </div>
 </section>
 
@@ -128,7 +127,7 @@ title: Home
       </div>
       <div>
         <h3>Strengths</h3>
-        <p>Debugging, optimization, documentation, simplifcation, code organization</p>
+        <p>Debugging, optimization, documentation, simplification, code organization</p>
       </div>
       <div>
         <h3>Coursework</h3>
@@ -142,9 +141,15 @@ title: Home
   <div class="container cta-box">
     <h2>Contact</h2>
     <div class="contact-list">
-      <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+      <a class="contact-item" href="mailto:{{ site.email }}">
+        <span>Email</span>
+        <strong>{{ site.email }}</strong>
+      </a>
       {% if site.phone != blank %}
-        <a href="tel:{{ site.phone | remove: ' ' | remove: '-' | remove: '(' | remove: ')' | remove: '.' }}">{{ site.phone }}</a>
+        <a class="contact-item" href="tel:{{ site.phone | remove: ' ' | remove: '-' | remove: '(' | remove: ')' | remove: '.' }}">
+          <span>Phone</span>
+          <strong>{{ site.phone }}</strong>
+        </a>
       {% endif %}
     </div>
   </div>

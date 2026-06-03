@@ -12,7 +12,7 @@ title: Home
         I build reliable software, game systems, and open-source tools with a bias toward clear debugging, readable code, and finished work.
       </p>
       <div class="button-row">
-        <a class="button primary" href="mailto:{{ site.email }}">Contact Me</a>
+        <a class="button primary" href="#contact">Contact Me</a>
         <a class="button" href="{{ site.resume_url | relative_url }}" target="_blank" rel="noopener">View Resume</a>
         <a class="button" href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener">GitHub</a>
       </div>
@@ -137,7 +137,7 @@ title: Home
   </div>
 </section>
 
-<section class="section cta">
+<section id="contact" class="section cta">
   <div class="container cta-box">
     <h2>Contact</h2>
     <div class="contact-list">

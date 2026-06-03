@@ -41,25 +41,22 @@ order: 0
 - Debugged complex generation issues caused by hidden option interactions by running repeated tests, isolating failing configurations, and tracing logic across multiple systems.
 - Collaborated with maintainers and playtesters to turn bug reports, gameplay issues, and edge cases into tested implementation changes.
 
-### Selected Contributions
+### Notable Contributions
 
 <div class="contribution-list">
   <article>
-    <h3>Complex Generation Debugging</h3>
-    <p><strong>Problem:</strong> Certain randomized option combinations caused hard-to-reproduce generation failures.</p>
-    <p><strong>Action:</strong> Reproduced failing seeds, narrowed the issue to hidden option interactions, and traced the bug through mission logic and randomized settings.</p>
-    <p><strong>Result:</strong> Helped stabilize generation behavior and reduce difficult-to-diagnose failures.</p>
+    <h3><a href="https://github.com/archipelago-sc2/Archipelago-SC2-data/pull/37" target="_blank" rel="noopener">Added Artanis as a new hero unit</a></h3>
+    <p>Designed and implemented a cohesive Artanis hero kit by coordinating unit data, abilities, upgrades, behaviors, and mission interactions across multiple StarCraft II data systems.</p>
+    <p>This contribution shows a thorough understanding of how many moving parts interact, then turns that knowledge into a playable character kit that feels intentional rather than stitched together.</p>
   </article>
   <article>
-    <h3>Gameplay And Mission Compatibility</h3>
-    <p><strong>Problem:</strong> New options and race-swap behavior needed to work across many mission-specific systems.</p>
-    <p><strong>Action:</strong> Updated Python logic, XML data, and StarCraft II Editor systems to support mission logic, hero systems, and compatibility fixes.</p>
-    <p><strong>Result:</strong> Expanded playable randomizer configurations while preserving campaign behavior across edge cases.</p>
+    <h3><a href="https://github.com/Ziktofel/Archipelago-SC2-data/pull/452" target="_blank" rel="noopener">Reworked triggers for customization and performance</a></h3>
+    <p>Refactored mission trigger logic to make the underlying systems more flexible and efficient, unblocking new item designs that could not work properly with the previous structure.</p>
+    <p>This work demonstrates optimization, system redesign, and the ability to make existing gameplay infrastructure support broader future customization.</p>
   </article>
   <article>
-    <h3>Maintainer Workflow</h3>
-    <p><strong>Problem:</strong> A large open-source project needs careful review, branch coordination, and regression awareness.</p>
-    <p><strong>Action:</strong> Reviewed pull requests, resolved merge conflicts, coordinated feedback, and helped convert reports from maintainers and playtesters into tested fixes.</p>
-    <p><strong>Result:</strong> Supported project velocity while keeping changes reviewable and grounded in real gameplay behavior.</p>
+    <h3><a href="https://github.com/archipelago-sc2/Archipelago-SC2-data/pull/85" target="_blank" rel="noopener">Updated maps for personalized mission variants</a></h3>
+    <p>Updated mission maps to give players a more personalized experience across variants while preserving the feel and balance of each scenario.</p>
+    <p>This is one example of many map update PRs that required balancing different situations to achieve similar or improved gameplay results across randomized configurations.</p>
   </article>
 </div>
